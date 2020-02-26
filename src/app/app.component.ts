@@ -8,23 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   nombre: string = 'Capitan America';
-
   nombre2: string = 'saMUEL rUiz de la ROSA';
-
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
   PI: number = Math.PI;
-
   porcentaje: number = 0.234;
-
   salario: number = 1234.5;
-
   fecha: Date = new Date();
-
+  activar:boolean = true;
   idioma: string = 'en';
-
   videoURL: string = 'https://www.youtube.com/embed/wXhTHyIgQ_U'
-
 
   valorPromesa = new Promise((resolve)=>{
     setTimeout(function(){
